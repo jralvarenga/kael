@@ -14,7 +14,8 @@
   },
   "exports": {
     "./db": "./src/db.ts",
-    "./schema": "./src/schema.ts"
+    "./schema": "./src/schema.ts",
+    "./types": "./src/types.ts"
   },
   "devDependencies": {
     "@kael/typescript-config": "workspace:*",
