@@ -1,0 +1,10 @@
+{
+  "extends": "@kael/typescript-config/react-library.json",
+  "compilerOptions": {
+    "paths": {
+      "@kael/ui/*": ["./src/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "kael",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.1",
+    "@kael/typescript-config": "workspace:*",
+    "turbo": "^2.9.18",
+    "typescript": "^5"
+  },
+  "packageManager": "bun@1.2.23",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
