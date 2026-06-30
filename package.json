@@ -9,9 +9,12 @@
     "format": "turbo format",
     "check": "biome check .",
     "check:fix": "biome check --write .",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "changeset": "changeset",
+    "ci:version": "changeset version"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.0",
     "@biomejs/biome": "^2.5.1",
     "@kael/typescript-config": "workspace:*",
     "turbo": "^2.9.18",
