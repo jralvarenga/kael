@@ -1,5 +1,5 @@
 ---
-"@kael/database": minor
+"@kael/database": patch
 "@kael/ui": patch
 "web": patch
 ---
